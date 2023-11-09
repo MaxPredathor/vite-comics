@@ -1,17 +1,19 @@
 <template>
+  <AppHeader />
+  <AppMain />
+  <MyAppFooter />
 </template>
 
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
-import AppFooter from './components/Appfooter.vue'
+import MyAppFooter from './components/MyAppFooter.vue'
   export default {
     name: 'App',
     components: {
       AppHeader,
       AppMain,
-      AppFooter,
-
+      MyAppFooter
     },
     data(){
       return{

@@ -1,13 +1,12 @@
 <template>
-    <header>
-        header
-    </header>
+    <footer>
+        footer
+    </footer>
 </template>
 
 <script>
     export default {
-        name: 'AppHeader'
-        
+        name: 'MyAppFooter'
     }
 </script>
 
