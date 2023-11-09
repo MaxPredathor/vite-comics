@@ -1,12 +1,17 @@
 <template>
-    <footer>
-        footer
-    </footer>
+    <AppFooterDc />
+    <AppFooterSignUp />
 </template>
 
 <script>
+import AppFooterDc from './footer/AppFooterDc.vue'
+import AppFooterSignUp from './footer/AppFooterSignUp.vue'
     export default {
-        name: 'AppFooter'
+        name: 'AppFooter',
+        components: {
+            AppFooterDc,
+            AppFooterSignUp
+        },
     }
 </script>
 

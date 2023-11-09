@@ -1,7 +1,7 @@
 <template>
   <AppHeader />
   <AppMain />
-  <MyAppFooter />
+  <AppFooter />
 </template>
 
 <script>
