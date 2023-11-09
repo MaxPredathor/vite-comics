@@ -7,13 +7,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
-import MyAppFooter from './components/MyAppFooter.vue'
+import AppFooter from './components/appFooter.vue'
   export default {
     name: 'App',
     components: {
       AppHeader,
       AppMain,
-      MyAppFooter
+      AppFooter
     },
     data(){
       return{

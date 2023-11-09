@@ -42,8 +42,7 @@
         li{
             padding: 50px 10px;
             font-weight: bold;
-            color: $background_main;
-;
+            color: $nav_list;
 
             &:hover{
                 color: $color_primary;
