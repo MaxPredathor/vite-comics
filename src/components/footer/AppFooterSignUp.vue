@@ -53,6 +53,14 @@
         border: 2px solid $color_primary;
         border-radius: 0;
         margin-top: 30px;
+
+        &:hover{
+            border: 2px solid $color_primary;
+            color: $color_primary;
+            transform: scale(1.2);
+            transition: all 0.3s ease;
+            text-decoration: underline;
+        }
         
     }
 
