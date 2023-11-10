@@ -10,6 +10,7 @@
                     />
                 </div>
             </div>
+            <button>LOAD MORE</button>
         </div>
     </div>
 </template>
@@ -34,9 +35,25 @@ import AppCard from './card/AppCard.vue'
 @use '../../assets/styles/partials/_variables' as *;
     .wrapper{
         background-color: $background_main;
+        position: relative;
     }
     h3{
         line-height: 150px;
         font-weight: bold;
+    }
+    button{
+        position: absolute;
+        bottom: 10px;
+        left: 46%;
+        background-color: $color_primary;
+        color: $background_header;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 </style>

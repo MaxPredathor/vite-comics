@@ -29,6 +29,7 @@
         position: absolute;
         bottom: -25px;
         left: 15%;
+        z-index: 100;
 
         &:hover{
             transform: scale(1.2);

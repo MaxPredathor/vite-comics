@@ -26,6 +26,8 @@
         background-color: $background_main;
         border: none;
         margin: 40px 0;
+        text-wrap: balance;
+        z-index: 99;
 
         &:hover{
             transform: scale(1.2);
